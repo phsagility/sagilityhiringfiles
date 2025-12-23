@@ -1,0 +1,10 @@
+
+/* Background-only stylesheet */
+/* Subtle mint to white gradient matching the provided image */
+html, body {
+  /* Do not touch layout/typography/margins */
+  background: linear-gradient(to right, #e6fffa, #ffffff);
+  background-attachment: fixed;   /* optional: keeps gradient fixed on scroll */
+  background-repeat: no-repeat;
+  background-size: cover;         /* fill viewport */
+}
